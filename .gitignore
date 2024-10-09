@@ -1,0 +1,77 @@
+# Ignore compiled output
+bin/
+obj/
+
+# Ignore temporary files
+*.suo
+*.user
+*.vshost
+*.pdb
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore NuGet packages (unless you want to track changes)
+.nuget/
+packages/
+
+# Ignore temporary files from build tools
+*.cache
+*.cache/
+
+# Ignore Visual Studio temporary files
+*.njsproj
+*.sln.docsettings
+*.vspscc
+*.vssscc
+
+# Ignore intermediate files
+*.pid
+*.pid.lock
+
+# Ignore deployment-specific files
+obj/Debug/
+obj/Release/
+bin/Debug/
+bin/Release/
+.vs/
+project.assets.json
+.DS_Store
+
+# Ignore user-specific configuration files
+*.userprefs
+*.config.user
+*.suo
+
+# Ignore various other project-specific files
+.DS_Store
+*.db
+*.sdf
+*.db3
+*.sqlite
+*.db4
+*.sqlite-journal
+*.sqlite-shm
+*.sqlite-wal
+*.cache
+
+# Ignore potentially problematic files for web apps
+.vs/config/
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Ignore config files (unless you want to track changes)
+web.config
+
+# Ignore potentially problematic files in Azure Function projects
+.venv/
+.functions/
+bin/
+obj/
+
+# Ignore potentially problematic files in Asp.Net Core projects
+.editorconfig
+.vscode
